@@ -1,3 +1,5 @@
 .container {
-    align-self: center;
+    width: max-content;
+    align-items: center;
+    margin-top: auto;
 }
