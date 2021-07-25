@@ -6,15 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desligar</title>
     <script src="index.js"></script>
+
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="styles.css" rel="stylesheet">
+    <link  rel="stylesheet" href="/public/styles.css">
+    
 </head>
 <body>
-    <div class="container">
-        <form method = GET action="/desligar">
-            <input type="number" name="timer">
-            <button type="submit">Desligar</button>
-        </form>
-    </div>
+
+    <section id="intro" class="intro py-5">
+        <h3 class="text-light"> Baiano System</h3>
+        <div class="container"> 
+            <h3 class="text-light">Digite  o tempo para o Desligamento </h3>
+            <form method = GET action="/desligar">
+                <input type="number" name="timer">
+                <button type="submit">Desligar</button>
+            </form>
+        </div>
+    </section>
+    
 </body>
 </html>
